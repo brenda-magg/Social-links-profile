@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Social links profile solution](https://your-solution-url.com)
+- Solution URL: [Social links profile solution](https://brenda-magg.github.io/Social-links-profile/)
 
 ## My process
 
