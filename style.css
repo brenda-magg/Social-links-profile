@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); 
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 5em 0em 5em 0em;
+}
+
+article {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 2rem 5.5rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 8em; 
+    align-self: center;
+    width: 85px;
+}
+
+
+h1 {
+    font-family: "Inter", serif;
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin: 20px 0px 10px;
+    width: 260px;
+}
+
+h2 {
+    font-family: "Inter", serif;
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    margin: 0 0 5px;
+}
+
+p {
+    font-family: "Inter", serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin: 10 0 5px;
+    width: 260px;
+}
+
+
+.btn-links {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.btn {
+    width: 175%;
+    display: block;
+    margin-bottom: 15px;
+    padding: 14px 8px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Inter", serif;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    article {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding: 2rem 5.5rem;
+    }
+}
